@@ -1,0 +1,115 @@
+export const bannerData = [
+  {
+    id: 1,
+    discount: '20% OFF',
+    saleTime: '15 Nov to 7 Dec',
+    smallText: 'Beats Solo Air',
+    midText: 'Summer Sale',
+    largeText1: 'FINE',
+    largeText2: 'SMILE',
+    image: require('../assets/a64b345016e96adfb8849af5521c8e0ecfe8f027-555x555.webp'),
+    buttonText: 'Shop Now',
+    descriptionTitle: 'Description 1',
+    description: 'Best Headphones on the Market',
+    product: 'headphones',
+  },
+];
+
+export const productData = [
+  {
+    id: 1,
+    image: [
+      require('../assets/headphones_a_1.webp'),
+      require('../assets/headphones_a_2.webp'),
+      require('../assets/headphones_a_3.webp'),
+      require('../assets/headphones_a_4.webp'),
+    ],
+    name: 'Headphone B110',
+    slug: 'product-1',
+    price: 49.99,
+  },
+  {
+    id: 2,
+    image: [
+      require('../assets/earphones_a_1.webp'),
+      require('../assets/earphones_a_2.webp'),
+      require('../assets/earphones_a_3.webp'),
+      require('../assets/earphones_a_4.webp'),
+    ],
+    name: 'Earphone',
+    slug: 'product-2',
+    price: 24.99,
+  },
+  {
+    id: 3,
+    image: [
+      require('../assets/earphones_b_1.webp'),
+      require('../assets/earphones_b_2.webp'),
+      require('../assets/earphones_b_3.webp'),
+      require('../assets/earphones_b_4.webp'),
+    ],
+    name: 'Ear Buds',
+    slug: 'product-3',
+    price: 29.99,
+  },
+  {
+    id: 4,
+    image: [
+      require('../assets/earphones_c_1.webp'),
+      require('../assets/earphones_c_2.webp'),
+      require('../assets/earphones_c_3.webp'),
+      require('../assets/earphones_c_4.webp'),
+    ],
+    name: 'Wireless Earphone',
+    slug: 'product-4',
+    price: 35.99,
+  },
+  {
+    id: 5,
+    image: [
+      require('../assets/speaker1.webp'),
+      require('../assets/speaker2.webp'),
+      require('../assets/speaker3.webp'),
+      require('../assets/speaker4.webp'),
+    ],
+    name: 'Speaker',
+    slug: 'product-5',
+    price: 49.99,
+  },
+  {
+    id: 6,
+    image: [
+      require('../assets/headphones_b_1.webp'),
+      require('../assets/headphones_b_2.webp'),
+      require('../assets/headphones_b_3.webp'),
+      require('../assets/headphones_b_4.webp'),
+    ],
+    name: 'Headphone B210',
+    slug: 'product-6',
+    price: 19.99,
+  },
+  {
+    id: 7,
+    image: [
+      require('../assets/headphones_c_1.webp'),
+      require('../assets/headphones_c_2.webp'),
+      require('../assets/headphones_c_3.webp'),
+      require('../assets/headphones_c_4.webp'),
+    ],
+    name: 'Headphone B420',
+    slug: 'product-7',
+    price: 29.99,
+  },
+  {
+    id: 8,
+    image: [
+      require('../assets/watch_1.webp'),
+      require('../assets/watch_2.webp'),
+      require('../assets/watch_3.webp'),
+      require('../assets/watch_4.webp'),
+    ],
+    name: 'Watch',
+    slug: 'product-8',
+    price: 59.99,
+  },
+];
